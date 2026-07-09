@@ -1,0 +1,19 @@
+
+# Large dataset files — do not upload
+datasets/
+*.npy
+*.pkl
+*.pt
+*.pth
+
+# Colab checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# System files
+.DS_Store
+*.pyc
+
+# Large model files
+*.bin
+*.safetensors
